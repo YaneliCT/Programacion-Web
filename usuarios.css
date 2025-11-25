@@ -1,0 +1,93 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-image: url("FLORECITA.jpg");
+  background-repeat: no-repeat;
+  background-size: 20%; /* Ajusta la imagen al tamaño de la pantalla */
+  background-position: horizontal center; /* Centra la imagen horizontalmente */
+}
+body{
+  background-image: url("FLORECITA.jpg");
+  background-repeat: no-repeat;
+  background-size: 20%; /* Ajusta la imagen al tamaño de la pantalla */
+  background-position: horizontal center; /* Centra la imagen horizontalmente */
+}
+body{
+ background-image: url("FLORECITA.jpg");
+  background-repeat: no-repeat;
+  background-size: 20%; /* Ajusta la imagen al tamaño de la pantalla */
+  background-position: horizontal center; /* Centra la imagen horizontalmente */
+}
+
+.contenedor {
+  width: 90%;
+  max-width: 1000px;
+  margin: 50px auto;
+  background: rgba(255, 255, 255, 0.8); /* ← blanco con 80% de opacidad */
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+h1 {
+  text-align: center;
+  color: #2c3e50;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th, td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+}
+
+th {
+  background-color: #2c3e50;
+  color: white;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+button {
+  padding: 6px 12px;
+  margin: 2px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  background-color: #3498db;
+  color: white;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background-color: #2980b9;
+}
+
+button.eliminar {
+  background-color: #e74c3c;
+}
+
+button.eliminar:hover {
+  background-color: #c0392b;
+}
+
+.volver {
+  display: inline-block;
+  margin-top: 20px;
+  background-color: #7f8c8d;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 6px;
+  text-decoration: none;
+}
+
+.volver:hover {
+  background-color: #636e72;
+}
