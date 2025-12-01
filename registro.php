@@ -1,16 +1,7 @@
 <?php
-$server = "localhost";
-$user = "root";
-$pass = "";
-$db = "gobierno";
+session_start();
+include("conexion.php"); // aquí tienes tu conexión mysqli
 
-$conexion = new mysqli($server, $user, $pass, $db);
-
-if ($conexion->connect_errno){
-    die("Conexion Fallida" . $conexion->connect_errno);
-}else{
-    echo("conectado");
-}
 // Procesar registro desde PHP
 if ($_SERVER["REQUEST_METHOD"] === "POST") {
     $nombre = $_POST["nombre"];
